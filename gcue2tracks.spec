@@ -1,11 +1,11 @@
 Name:           gcue2tracks
-Version:        0.5.0
+Version:        0.5.2
 Release:        1
 License:        GPLv2+
 Summary:        Tool for spliting audio CD image to tracks with cue sheet info
 Url:            https://www.assembla.com/wiki/show/gCue2tracks
 Group:          Sound
-Source0:        http://trac-hg.assembla.com/gCue2tracks/raw-attachment/wiki/Archive/%{name}_%{version}.tar.gz
+Source0:        %{name}-%{version}.tar.xz
 %py_requires
 Requires:       cuetools
 Requires:       ffmpeg
@@ -18,10 +18,11 @@ Suggests:       wavpack
 BuildArch:      noarch
 
 %description
-GUI for cue2tracks. Tool for spliting audio CD image to tracks with cue sheet info.
+GUI for cue2tracks. Tool for spliting audio CD image to tracks with cue sheet
+info.
 
 %prep
-%setup -qn gCue2tracks
+%setup -q
 
 %build
 
