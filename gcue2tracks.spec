@@ -43,3 +43,14 @@ rm -f %{buildroot}%{_datadir}/gcue2tracks/ui/*.h
 %{_datadir}/pixmaps/gCue2tracks.png
 %{py_sitedir}/*
 %doc debian/copyright changelog
+
+
+%changelog
+* Wed Jun 06 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.5.2-1
++ Revision: 803010
+- update to 0.5.2
+
+* Tue Nov 08 2011 Andrey Smirnov <asmirnov@mandriva.org> 0.5.0-1
++ Revision: 729061
+- imported package gcue2tracks
+
