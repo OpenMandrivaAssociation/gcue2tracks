@@ -1,6 +1,6 @@
 Name:           gcue2tracks
 Version:        0.5.2
-Release:        1
+Release:        2
 License:        GPLv2+
 Summary:        Tool for spliting audio CD image to tracks with cue sheet info
 Url:            https://www.assembla.com/wiki/show/gCue2tracks
